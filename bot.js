@@ -89,7 +89,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('#rep <@286088294234718209>')
+        message.channel.send('#rep <@610604311868735507>')
     }
 });
 
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
+let rank = message.guild.member(message.author).roles.find('name', '610604311868735507');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
