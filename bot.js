@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = ['610604311868735507'];
-const prefix = ['!'];
+const prefix = ['%'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Ammar , Farm Credit By ammar,  - كردت اسبام اسبام اسبام   **[ " ${x} " ]`)
+        message.channel.send(`**Everything that kills me makes me feel alive   **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,7 +68,7 @@ client.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.the kings');
+let rank = message.guild.member(message.author).roles.find('name', 'Role.الرئيس');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
@@ -98,7 +98,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**i am the king ammar fuck u ahmad br **[ " ${x} " ]`)
+        message.channel.send(`**hello **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
