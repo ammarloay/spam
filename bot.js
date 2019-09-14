@@ -1,7 +1,7 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = ['610604311868735507'];
+const myid = ['596507272751087636'];
 const prefix = ['%'];
 
 client.on('ready', () => {
@@ -89,7 +89,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('#rep <@610604311868735507>')
+        message.channel.send('#rep <@596507272751087636>')
     }
 });
 
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.the kings');
+let rank = message.guild.member(message.author).roles.find('name', 'Role.الرئيس');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
